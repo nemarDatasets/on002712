@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Numbers and Letters",
-  "description": "This dataset contains neuroimaging data from a magnetoencephalography (MEG) experiment investigating the neural processing of numbers, letters, and false fonts presented as single items or strings. The study employs event-related experimental design with coded triggers for different stimulus categories across two runs, providing insights into visual word form processing and numerical cognition. Behavioral responses were recorded alongside MEG data. This dataset was previously accessible at ds001985 and was reuploaded due to privacy considerations.",
+  "description": "This dataset contains neuroimaging data from an experiment investigating the neural processing of numbers, letters, and false fonts presented as single items or strings. The study employs event-related experimental design with two runs, each utilizing distinct stimulus categories marked by specific trigger codes to enable precise temporal analysis of brain responses to different visual stimuli. Data were acquired using magnetoencephalography (MEG).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,25 +22,19 @@
       "term": "letters"
     },
     {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "event-related fields"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
       "term": "false fonts"
     },
     {
-      "term": "stimulus categories"
+      "term": "event-related design"
     },
     {
-      "term": "word form processing"
+      "term": "stimulus presentation"
     },
     {
-      "term": "numerical cognition"
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "MEG"
     }
   ],
   "related_identifiers": [
