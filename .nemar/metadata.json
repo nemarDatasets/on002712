@@ -1,34 +1,102 @@
 {
   "version": "2.0",
-  "dataset_id": "on002712",
-  "source": "openneuro",
-  "source_id": "ds002712",
+  "pipeline_stage": "enriched",
   "title": "Numbers and Letters",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Sara Aurtenetxe": {},
     "Nicola Molinaro": {},
     "Doug Davidson": {},
     "Manuel Carreiras": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002712.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002712",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002712",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds001985",
+      "identifier_type": "DOI",
+      "relation_type": "IsNewVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "anat",
     "beh",
     "meg"
   ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "meg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".db",
+    ".fif",
+    ".gitattributes",
+    ".gz",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".tsv"
+  ],
+  "description": "A neuroimaging dataset examining the neural processing of numbers and letters through two experimental runs using event-related stimuli. The study presents single items and strings of numbers, letters, and false fonts with coded triggers for each stimulus category, providing insights into visual word form processing and numerical cognition. Data were acquired using magnetoencephalography (MEG) with structural MRI and behavioral measurements. This dataset was reuploaded from ds001985 due to privacy considerations.",
+  "keywords": [
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "numbers"
+    },
+    {
+      "term": "letters"
+    },
+    {
+      "term": "event-related fields"
+    },
+    {
+      "term": "ERF"
+    },
+    {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "visual word form area"
+    },
+    {
+      "term": "numerical cognition"
+    },
+    {
+      "term": "false fonts"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "de-identification"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "behavioral data"
+    }
+  ],
+  "source_hash": "64550742d1859ab1e03d089b253ce46f6fa7fd57102b5d6b38c6de41f3c3e4b5"
 }
