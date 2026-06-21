@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002712-blue)](https://doi.org/10.82901/nemar.on002712)
+
 OpenNeuro curator note: This dataset was previously accessible at ds001985. The dataset was reuploaded due to privacy considerations. 
 
 The experiment is composed by two runs
